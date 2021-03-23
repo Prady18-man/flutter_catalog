@@ -26,9 +26,9 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       darkTheme: ThemeData(
         brightness: Brightness.dark),
-      initialRoute: "/",
+      initialRoute: Myroutes.homeRoute,
       routes: {
-        "/": (context) => LoginPage(),
+        
         Myroutes.loginRoute:(context) => LoginPage(),
         Myroutes.homeRoute:(context)=>HomePage(),
         //"/login": (context) => LoginPage()
