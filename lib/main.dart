@@ -4,7 +4,7 @@ import 'package:flutter_catalog/Pages/login_page.dart';
 import 'package:flutter_catalog/utils/routes.dart';
 import 'package:flutter_catalog/widgets/theme.dart';
 
-3void main() {
+void main() {
   runApp(MyApp());
 }
 class MyApp extends StatefulWidget {
