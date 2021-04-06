@@ -4,6 +4,8 @@ import 'package:flutter_catalog/Pages/login_page.dart';
 import 'package:flutter_catalog/utils/routes.dart';
 import 'package:flutter_catalog/widgets/theme.dart';
 
+import 'Pages/cart_page.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -19,10 +21,12 @@ class _MyAppState extends State<MyApp> {
       themeMode: ThemeMode.system,
       theme: MyTheme.lightTheme(context),
       darkTheme: MyTheme.darkTheme(context),
-      initialRoute: Myroutes.homeRoute,
+      initialRoute: MyRoutes.homeRoute,
       routes: {
-        Myroutes.loginRoute:(context) => LoginPage(),
-        Myroutes.homeRoute:(context)=>HomePage(),
+        "/":(context) => LoginPage(),
+        MyRoutes.homeRoute:(context)=>HomePage(),
+        MyRoutes.loginRoute:(context) => LoginPage(),
+        MyRoutes.cartRoute:(context)=>CartPage(),
       },
     );
   }
