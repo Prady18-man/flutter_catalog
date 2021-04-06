@@ -27,13 +27,13 @@ class HomeDetailPage extends StatelessWidget {
           children: [
             "\$${catalog.price}".text.bold.xl4.red800.make(),
             ElevatedButton(
-                    onPressed: () => Navigator.push(context, MyRoutes.cartRoute),
+                    onPressed: () {},
                     style: ButtonStyle(
                         backgroundColor:
                             MaterialStateProperty.all(MyTheme.darkBluishColor),
                         shape: MaterialStateProperty.all(StadiumBorder())),
                     child: "Add to Cart".text.make())
-                .wh(100, 50)
+                .wh(120, 50)
           ],
         ).p32(),
       ),
