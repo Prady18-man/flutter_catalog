@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
 
   final String name = "Codepur";
 
-  final url = "https://api.jsonbin.io/b/606dcbbd9c59a9732caf06fe";
+  final url = "https://api.jsonbin.io/b/604dbddb683e7e079c4eefd3";
 
   @override
   void initState() {
