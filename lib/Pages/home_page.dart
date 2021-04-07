@@ -7,7 +7,6 @@ import 'package:flutter_catalog/widgets/home_widget/catalog_header.dart';
 import 'package:flutter_catalog/widgets/home_widget/catalog_list.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'package:flutter_catalog/models/catalog.dart';
-import 'package:flutter_catalog/widgets/theme.dart';
 
 
 
